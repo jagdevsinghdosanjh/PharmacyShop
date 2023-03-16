@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 95%;
+    padding-left:10px;
+    border-radius:4px;
+    font-size: x-large;
+}
+
+
+input[type="submit"]{
+    margin-top:10px;
+    height:50px;
+    width:120px;
+    color:white;
+    font-size:25px;
+    background-color:pink;
+}
+
+input[type="reset"]{
+    margin-top:10px;
+    height:50px;
+    width:120px;
+    color:white;
+    font-size:25px;
+    background-color:pink;
+}
+
+.inp{
+    width:800px;
+    height:max-content;
+}
+
+.form{
+    top:30%;
+    bottom:30%;
+    right:30%;
+    left:30%;
+    border:2px solid white;
+    position: absolute;
+    fill-opacity: 0.35;
+    z-index:1;
+}
+.input-focus{
+    font-weight: bold;
+    color:steelblue;
+}
+
+.inp:hover{
+    background-color: steelblue;
+    font-weight: bold;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
