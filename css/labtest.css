@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+#testForm {
+    float:left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#testimage img {
+    left:60%;
+    position: sticky;
+    top:30px;
+    width:40%;
+    height: fit-content;
+}
+
+.inputTable td {
+    padding: 10px;
+}
+
+.inputTable th {
+    text-align: left;
+}
+
+.inputTable input[type=text],
+input[type=number],
+input[type=email] {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: rgba(128, 128, 128, 0.5);
+    width: 300px;
+}
+
+.inputTable label {
+    text-align: left;
+}
