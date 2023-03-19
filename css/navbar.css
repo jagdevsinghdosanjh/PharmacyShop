@@ -3,13 +3,13 @@ body{
 }
 .navbar{
     overflow:hidden;
-    background-color:darkgrey;
+    background-color:darkslategray;
    }
 .navbar a{
     float:left;
-    color:red;
+    color:white;
     text-align:center;
-    padding :14px 16px;
+    padding :10px 12px;
     text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ body{
     outline:none;
     color:whitesmoke;
     font-weight: bolder;
-    font-size: larger;
+    font-size: 25px;;
     padding: 14px 16px;
     background-color: inherit;
     font-family:inherit;
