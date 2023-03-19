@@ -1,58 +1,71 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
-    overflow:hidden;
-    background-color:darkslategray;
-   }
-.navbar a{
-    float:left;
-    color:white;
-    text-align:center;
-    padding :10px 12px;
+
+.navbar {
+    overflow: hidden;
+    background-color: darkslategray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
-.subnav{
-    float:left;
+.subnav {
+    float: left;
     overflow: hidden;
 }
-.subnav .subnavbtn{
-    border:none;
-    outline:none;
-    color:whitesmoke;
+
+.subnav .subnavbtn {
+    border: none;
+    outline: none;
+    color: whitesmoke;
     font-weight: bolder;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     padding: 10px 12px;
     background-color: inherit;
-    font-family:inherit;
-    margin:0;
-}
-.navbar a:hover, .subnav:hover .subnavbtn{
-    background-color:black;
-}
-.subnav-content{
-    font-size: 12px;;
-    display:none;
-    position:absolute;
-    background-color:#f9f9f9;
-    width:auto;
-    box-shadow: 0px 8px 6px 0px rgba(0,0,0,2);
-    z-index: 1;
-    
-}
-.subnav-content a{
-    float:none;
-    color:black;
-    padding:10px 12px;
-    text-decoration: none;
-    display:block;
-    text-align:left;
+    font-family: inherit;
+    margin: 0;
 }
 
-.subnav-content a:hover{
-    background-color:#ddd;
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: black;
 }
-.subnav:hover .subnav-content{
+
+.subnav-content {
+    font-size: 12px;
+    ;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 6px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+
+}
+
+.subnav-content a {
+    float: none;
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.subnav-content a:hover {
+    background-color: #ddd;
+}
+
+.subnav:hover .subnav-content {
     display: block;
 }

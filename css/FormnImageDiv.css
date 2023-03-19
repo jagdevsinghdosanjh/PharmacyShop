@@ -1,5 +1,21 @@
-body {
-    background-color: white;
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #testForm {
@@ -12,7 +28,7 @@ body {
     right: 20px;
     background-position-x: right;
     top: 30px;
-    width: 40%;
+    width: 100%;
     height: 50%;
 }
 
@@ -37,7 +53,6 @@ input[type=email] {
 }
 
 input[type=button] {
-    right: 50%;
     color: white;
     font-size: larger;
     font-weight: bolder;
