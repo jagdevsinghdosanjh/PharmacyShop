@@ -25,11 +25,14 @@
         height: 260px;
     }
 
-    .prdts img {
+    .prdts img{
         width: 230px;
-        height: 130px;
+        height: 150px;
         margin: 5px;
         border-radius: 10px;
+        position: -webkit-sticky;
+        position:sticky;
+        top:0;
     }
 
     .prdts .prdhdr {
