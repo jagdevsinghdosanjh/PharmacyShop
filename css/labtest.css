@@ -1,25 +1,31 @@
 body {
     background-color: white;
 }
+
 #testForm {
-    float:left;
-    width: 100%;
+    float: left;
+    width: 60%;
     margin: 0px;
     padding: 0px;
 }
+
+
 #testimage img {
-    right:0px;
-    position: sticky;
+    left:60%;
     top:30px;
     width:40%;
-    height:fit-content;
+    height:10%;
 }
+
+
 .inputTable td {
     padding: 10px;
 }
+
 .inputTable th {
     text-align: left;
 }
+
 .inputTable input[type=text],
 input[type=number],
 input[type=email] {
@@ -30,6 +36,7 @@ input[type=email] {
     border-color: rgba(128, 128, 128, 0.5);
     width: 300px;
 }
+
 .inputTable label {
     text-align: left;
 }
