@@ -11,12 +11,8 @@ body {
 
 
 #testimage img {
-    left: 60%;
-    position: sticky;
-    top: 30px;
-    width: 50%;
-    height: fit-content;
-}
+    width:fit-content;
+    }
 
 
 .inputTable td {
@@ -48,4 +44,5 @@ input[type=button] {
     font-size: larger;
     font-weight: bolder;
     background-color: blueviolet;
+    right:50%;
 }
