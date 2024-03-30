@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+
+#testForm {
+    min-width: 600px;
+    width: 98%;
+    padding: 10px;
+    background-image: url("../images/Lab-Test/lab-test.jpg");
+    background-position: right;
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    border: 2px solid lightslategray;
+    box-shadow: 5px 5px rgb(119, 136, 153, 0.3);
+    height: 700px;
+    min-height: 600px;
+    overflow: scroll scroll;
+}
+
+.inputTable td {
+    display: inline-table;
+    width: 300px;
+}
+
+.inputTable th {
+    text-align: left;
+    display: inline-flexbox;
+}
+
+.inputTable input[type=text],
+input[type=number],
+input[type=email] {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: rgba(128, 128, 128, 0.5);
+}
+
+.resetButton,
+.submitButton {
+    width: 100px;
+    min-width: 50px;
+    color: white;
+    background-color: violet;
+    font-size: medium;
+    margin-left: 100px;
+}
